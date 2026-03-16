@@ -1,18 +1,19 @@
 {
-  "name": "ficcon-backend",
+  "name": "ficcon-website",
   "version": "1.0.0",
   "type": "module",
-  "description": "Backend Express.js pour FICCON (masterclass, exposants, visiteurs)",
-  "main": "src/server.js",
+  "description": "FICCON - Foire Internationale de la Culture Congolaise",
+  "main": "backend/src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node backend/src/server.js",
+    "dev": "nodemon backend/src/server.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.98.0",
     "cors": "^2.8.5",
     "dotenv": "^17.3.1",
     "express": "^4.19.2",
+    "path": "^0.12.7",
     "resend": "^6.9.3",
     "sqlite3": "^5.1.6",
     "stripe": "^20.4.0",
