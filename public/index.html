@@ -27,19 +27,19 @@
           <a href="#exposants" onclick="switchTab('devenir-exposant')">✨ Devenir exposant</a>
         </div>
       </li>
-      <li><a href="#team">La Team</a></li>
+      <li><a href="#team">Ils nous soutiennent</a></li>
       <li><a href="#partenaires">Partenaires</a></li>
       <li><a href="#actus">Actus</a></li>
       <li class="nav-dropdown">
         <a href="#infos">Infos pratiques ▾</a>
         <div class="nav-dropdown-menu">
           <a href="#infos" onclick="switchInfoTab('acces')">📍 Plan d'accès</a>
-          <a href="#infos" onclick="switchInfoTab('programme')">📅 Programme masterclass</a>
+          <!--<a href="#infos" onclick="switchInfoTab('programme')">📅 Programme masterclass</a>-->
           <a href="#infos" onclick="switchInfoTab('faq')">❓ Questions fréquentes</a>
         </div>
       </li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#billets" class="nav-cta">❤️ Faire un don</a></li>
+      <!--<li><a href="#billets" class="nav-cta">❤️ Faire un don</a></li>-->
     </ul>
     <div class="hamburger" onclick="toggleMenu()">
       <span></span><span></span><span></span>
@@ -56,7 +56,7 @@
   <a href="#actus" onclick="closeMobile()">Actus culturelles</a>
   <a href="#infos" onclick="closeMobile()">Infos pratiques</a>
   <a href="#contact" onclick="closeMobile()">Contact</a>
-  <a href="#billets" class="nav-cta" onclick="closeMobile()">❤️ Faire un don</a>
+  <!--<a href="#billets" class="nav-cta" onclick="closeMobile()">❤️ Faire un don></a>-->
 </div>
 
 <!-- ===== HERO ===== -->
@@ -83,7 +83,7 @@
         Art, musique, gastronomie, mode, artisanat une célébration vivante de notre héritage partagé.
       </p>
       <div class="hero-actions">
-        <a href="#billets" class="btn-primary">❤️ Faire un don</a>
+        <!--<a href="#billets" class="btn-primary">❤️ Faire un don</a>-->
         <a href="#apropos" class="btn-secondary">Découvrir la FICCON →</a>
       </div>
       <div class="hero-stats">
@@ -166,7 +166,7 @@
         <div class="section-tag">À propos de la FICCON</div>
         <h2 class="section-title">Une foire pour <em>célébrer</em> l'héritage congolais</h2>
         <div class="apropos-quote">
-          <blockquote>"La FICCON, c'est notre Congo au cœur de l'Europe — pour la diaspora et le monde entier."</blockquote>
+          <blockquote>"La FICCON, c'est notre Congo au cœur de l'Europe pour la diaspora et le monde entier."</blockquote>
         </div>
         <p>La <strong>Foire Internationale de la Culture Congolaise (FICCON)</strong> est un événement inédit dédié à la promotion et à la valorisation de la richesse culturelle des deux Congo — la République Démocratique du Congo et la République du Congo (Brazzaville).</p>
         <p>Née d'une vision portée par des membres passionnés de la diaspora, la FICCON crée un espace unique où <strong>artistes, entrepreneurs, créateurs et intellectuels</strong> congolais se rencontrent, échangent et inspirent.</p>
@@ -228,7 +228,7 @@
       <div class="exposants-carousel-wrapper reveal">
         <div id="exposants-carousel" class="exposants-carousel">
           <p style="font-size:0.9rem; color:rgba(255,255,255,0.7);">
-            Chargement des exposants...
+            Retrouvez très prochainement tous nos exposants dans cette section.
           </p>
         </div>
       </div>
@@ -294,7 +294,7 @@
   </div>
 </section>
 
-<!-- ===== DONATIONS ===== -->
+<!-- ===== DONATIONS ===== 
 <section id="billets">
   <div class="section-inner">
     <div class="section-header reveal" style="text-align:center;">
@@ -342,7 +342,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- Modal donation -->
 <div class="modal-overlay" id="billetModal">
@@ -540,7 +540,7 @@
       </div>
       <div class="team-card">
         <div class="team-avatar" style="background: linear-gradient(135deg, #2a0d35, #8b2fc9);">
-          <img src="./assets/imgArtists/arletteAmuli.jpg" alt="Arlette Amuli" onerror="this.style.display='none';" />
+          <img src="./assets/imgArtists/ArletteA.jpeg" alt="Arlette Amuli" onerror="this.style.display='none';" />
         </div>
         <div class="team-card-body">
           <h4>Arlette Amuli</h4>
@@ -598,11 +598,10 @@
           <span>🏦</span>
         </div>
         <h4>Banque central du Congo</h4>
-        <p>Partenaire financier</p>
       </div>
       <div class="partenaire-card">
         <div class="partenaire-logo">
-          <img src="./assets/logoPartenaires/LOGO_Fondation_LIYOLO.pdf" alt="AfricArt Paris" onerror="this.style.display='none';" />
+          <img src="./assets/logoPartenaires/FondationLIYOLOlogo-01.png" alt="AfricArt Paris" onerror="this.style.display='none';" />
           <span>🎨</span>
         </div>
         <h4>Fondation Liyolo</h4>
@@ -610,11 +609,10 @@
       </div>
       <div class="partenaire-card">
         <div class="partenaire-logo">
-          <img src="./assets/logoPartenaires/rawbank.png" alt="Congo TV" onerror="this.style.display='none';" />
+          <img src="./assets/logoPartenaires/Rawbank_logo.png" alt="Congo TV" onerror="this.style.display='none';" />
           <span>📺</span>
         </div>
         <h4>Raw Bank</h4>
-        <p>Partenaire financier</p>
       </div>
       <div class="partenaire-card">
         <div class="partenaire-logo">
@@ -624,63 +622,6 @@
         <h4>Ministère de la Communication et médias</h4>
         <p>Partenaire institutionnel</p>
       </div>
-     <!-- <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(245,197,24,0.08);">
-          <img src="./assets/imgPartenaires/congoMobile.jpg" alt="Congo Mobile" onerror="this.style.display='none';" />
-          <span>📱</span>
-        </div>
-        <h4>Congo Mobile</h4>
-        <p>Partenaire tech</p>
-      </div>
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(42,157,107,0.08);">
-          <img src="./assets/imgPartenaires/mwindaFoods.jpg" alt="Mwinda Foods" onerror="this.style.display='none';" />
-          <span>🌿</span>
-        </div>
-        <h4>Mwinda Foods</h4>
-        <p>Partenaire gastronomie</p>
-      </div>
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(200,55,45,0.08);">
-          <img src="./assets/imgPartenaires/radioOkapi.jpg" alt="Radio Okapi" onerror="this.style.display='none';" />
-          <span>📻</span>
-        </div>
-        <h4>Radio Okapi</h4>
-        <p>Média partenaire</p>
-      </div>
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(58,188,180,0.08);">
-          <img src="./assets/imgPartenaires/villeDeParis.jpg" alt="Ville de Paris" onerror="this.style.display='none';" />
-          <span>🏛</span>
-        </div>
-        <h4>Ville de Paris</h4>
-        <p>Soutien institutionnel</p>
-      </div>
-      
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(42,157,107,0.08);">
-          <img src="./assets/imgPartenaires/hotelsCg.jpg" alt="Hotels.cg" onerror="this.style.display='none';" />
-          <span>🏨</span>
-        </div>
-        <h4>Hotels.cg</h4>
-        <p>Hébergement</p>
-      </div>
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(200,55,45,0.08);">
-          <img src="./assets/imgPartenaires/lePotentiel.jpg" alt="Le Potentiel" onerror="this.style.display='none';" />
-          <span>📰</span>
-        </div>
-        <h4>Le Potentiel</h4>
-        <p>Presse partenaire</p>
-      </div>
-      <div class="partenaire-card">
-        <div class="partenaire-logo" style="background:rgba(58,188,180,0.08);">
-          <img src="./assets/imgPartenaires/eventPro.jpg" alt="Event Pro" onerror="this.style.display='none';" />
-          <span>🎪</span>
-        </div>
-        <h4>Event Pro</h4>
-        <p>Organisation événementielle</p>
-      </div>-->
     </div>
     <div class="become-partner-box reveal">
       <div>
@@ -692,7 +633,7 @@
   </div>
 </section>
 
-<!-- ===== Offres d'emploi ===== -->
+<!-- ===== Offres d'emploi ===== 
 <section id="actus">
   <div class="section-inner">
     <div class="section-header reveal">
@@ -743,7 +684,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ===== INFOS PRATIQUES ===== -->
 <section id="infos">
@@ -754,18 +695,18 @@
     </div>
     <div class="infos-tabs-wrapper reveal">
       <button class="tab-btn active" onclick="switchInfoTab('acces')">📍 Plan d'accès</button>
-      <button class="tab-btn" onclick="switchInfoTab('programme')">📅 Programme masterclass</button>
       <button class="tab-btn" onclick="switchInfoTab('faq')">❓ FAQ</button>
+      <!--<button class="tab-btn" onclick="switchInfoTab('programme')">📅 Programme masterclass</button>-->
     </div>
 
     <!-- Plan d'accès -->
     <div class="tab-content active" id="info-tab-acces">
       <div class="infos-grid reveal">
         <div>
-          <div class="info-map-placeholder">
-            <div class="map-icon">🗺</div>
-            <p><strong>Parc Floral de Paris</strong></p>
-            <p style="font-size:0.88rem; max-width:280px; text-align:center; margin-top:0.5rem;">Route de la Pyramide, Bois de Vincennes<br/>75012 Paris</p>
+          <div>
+            <p style="font-size:0.88rem; max-width:280px; text-align:center; margin-top:0.5rem;">
+              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Parc%20Floral%20de%20Paris,%20Rte%20de%20la%20Pyramide,%2075012%20Paris,%20France&amp;t=h&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <br /><style>.gmap_canvas {overflow: hidden;background: none !important;width: 100%;height: 400px;}.gmap_iframe {height: 400px !important;}</style><a href='https://embed-maps.com/'>Embed Google Map</a>
+              </div><style>.mapouter {position: relative;text-align: right;width: 100%;height: 400px;}</style></div>
           </div>
         </div>
         <div>
@@ -804,7 +745,7 @@
       </div>
     </div>
 
-    <!-- Programme masterclass -->
+    <!-- Programme masterclass 
     <div class="tab-content" id="info-tab-programme">
       <div class="reveal">
         <div id="programme-masterclasses-root">
@@ -816,7 +757,7 @@
           Programme indicatif — sujet à modifications. Programme complet à venir.
         </p>
       </div>
-    </div>
+    </div> -->
 
     <!-- FAQ -->
     <div class="tab-content" id="info-tab-faq">
@@ -830,7 +771,7 @@
             <div class="faq-answer-inner">La FICCON est ouverte à tous ! Que vous soyez membre de la diaspora congolaise, curieux de culture africaine ou simplement amoureux de découvertes, vous êtes les bienvenus. L'événement est familial et accessible à tous les âges.</div>
           </div>
         </div>
-        <div class="faq-item">
+      <!--  <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)">
             Comment faire un don ?
             <span class="faq-chevron">▼</span>
@@ -847,7 +788,7 @@
           <div class="faq-answer">
             <div class="faq-answer-inner">Non, il n'y a pas de montant minimum. Chaque don compte, même le plus modeste. Tous les dons sont les bienvenus et seront intégralement reversés à des associations pour venir en aide aux nécessiteux au Congo.</div>
           </div>
-        </div>
+        </div>-->
         <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)">
             Comment devenir exposant à la FICCON ?
@@ -872,7 +813,7 @@
             <span class="faq-chevron">▼</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Pour devenir partenaire de la FICCON, utilisez notre formulaire de contact ou écrivez-nous directement à partenariats@ficcon.fr. Nous proposons différentes formules de partenariat (Or, Argent, Bronze) adaptées à tous les budgets.</div>
+            <div class="faq-answer-inner">Pour devenir partenaire de la FICCON, utilisez notre formulaire de contact.</div>
           </div>
         </div>
         <div class="faq-item">
@@ -890,7 +831,7 @@
             <span class="faq-chevron">▼</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Oui, un vestiaire sécurisé sera mis à disposition des visiteurs (tarif préférentiel pour les détenteurs de pass 3 jours). Vous pourrez y déposer vos affaires en toute sécurité pendant votre visite.</div>
+            <div class="faq-answer-inner">Oui, un vestiaire sécurisé sera mis à disposition des visiteurs. Vous pourrez y déposer vos affaires en toute sécurité pendant votre visite.</div>
           </div>
         </div>
         <div class="faq-item">
@@ -908,7 +849,7 @@
             <span class="faq-chevron">▼</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Oui ! La plupart des exposants proposeront leurs produits à la vente : vêtements wax, artisanat, cosmétiques, livres, instruments de musique, œuvres d'art et produits alimentaires. Paiement par carte bancaire accepté chez la majorité des exposants.</div>
+            <div class="faq-answer-inner">Oui ! La plupart des exposants proposeront leurs produits à la vente : vêtements wax, artisanat, cosmétiques, livres, instruments de musique, œuvres d'art et produits alimentaires.</div>
           </div>
         </div>
       </div>
@@ -930,9 +871,6 @@
         <p>Que vous soyez exposant potentiel, partenaire, journaliste ou simplement curieux, l'équipe FICCON répond à toutes vos questions.</p>
         <div class="contact-details">
           <div class="contact-detail">
-            <div class="contact-icon">📧</div>
-          </div>
-          <div class="contact-detail">
             <div class="contact-icon">📍</div>
             <div>
               <strong>Lieu de l'événement</strong>
@@ -946,11 +884,11 @@
             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
           </svg>
         </a>
-          <a class="social-btn" href="#" title="Facebook">f</a>
-          <a class="social-btn" href="#" title="Twitter">🐦</a>
-          <a class="social-btn" href="#" title="YouTube">▶</a>
-          <a class="social-btn" href="#" title="LinkedIn">in</a>
-          <a class="social-btn" href="https://www.tiktok.com/@ficcon_foirecongolaise" title="TikTok">🎵</a>
+          <a class="social-btn" href="https://www.tiktok.com/@ficcon_foirecongolaise" title="TikTok">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+            </svg>
+          </a>
         </div>
       </div>
       <div class="reveal">
@@ -1012,7 +950,7 @@
         <ul>
           <li><a href="#apropos">À propos</a></li>
           <li><a href="#exposants">Nos exposants</a></li>
-          <li><a href="#team">La team</a></li>
+          <li><a href="#team">Ils nous soutiennent</a></li>
           <li><a href="#partenaires">Partenaires</a></li>
           <li><a href="#actus">Actus</a></li>
         </ul>
@@ -1020,7 +958,7 @@
       <div class="footer-col">
         <h5>Pratique</h5>
         <ul>
-          <li><a href="#billets">Faire un don</a></li>
+          <!--<li><a href="#billets">Faire un don</a></li>-->
           <li><a href="#infos">Plan d'accès</a></li>
           <li><a href="#infos">Programme</a></li>
           <li><a href="#infos">FAQ</a></li>
@@ -1118,7 +1056,9 @@
 
   // Tab system - Infos
   function switchInfoTab(tabId) {
-    const tabs = ['acces', 'programme', 'faq'];
+    console.log(tabId);
+    
+    const tabs = ['acces', 'faq', 'programme',];
     document.querySelectorAll('.infos-tabs-wrapper .tab-btn').forEach((btn, i) => {
       btn.classList.toggle('active', tabs[i] === tabId);
     });
@@ -1129,7 +1069,7 @@
   }
 
   document.querySelectorAll('.infos-tabs-wrapper .tab-btn').forEach((btn, i) => {
-    const tabs = ['acces', 'programme', 'faq'];
+    const tabs = ['acces', 'faq', 'programme'];
     btn.addEventListener('click', () => switchInfoTab(tabs[i]));
   });
 
@@ -1679,11 +1619,11 @@ async function submitExposantForm() {
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    loadMasterclassProgramme(); // 1er chargement masterclass
-    connectRealtimeWS(); // ensuite, refresh auto à chaque insert
-    loadExhibitors(); // chargement des exposants
-  });
+ // document.addEventListener('DOMContentLoaded', () => {
+   // loadMasterclassProgramme(); // 1er chargement masterclass
+    //connectRealtimeWS(); // ensuite, refresh auto à chaque insert
+   // loadExhibitors(); // chargement des exposants
+  //});
 </script>
 </body>
 </html>

@@ -1012,23 +1012,21 @@ section { padding: 6rem 2rem; }
   transform: scale(1.03);
 }
 .partenaire-logo {
-  width: 60px; height: 60px;
   margin: 0 auto 0.75rem;
   border-radius: 12px;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.6rem;
   overflow: hidden;
   position: relative;
+  width: 90px;
+  height: 60px;
+  background: white;
+  padding: 8px;
 }
 .partenaire-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  object-fit: contain;
 }
 .partenaire-logo:has(img[src]:not([src=''])) > span {
   display: none;
