@@ -2,7 +2,7 @@
    ficcon.js — Script principal du site FICCON
    ===================================================== */
 
-   const API_BASE = 'http://localhost:4000';
+   const API_BASE = 'https://ficcon-website.onrender.com';
 
    /* ===== NAVBAR : effet scroll ===== */
    const navbar = document.getElementById('navbar');
