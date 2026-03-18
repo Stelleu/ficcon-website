@@ -1,17 +1,12 @@
 import express from 'express';
 import cors from 'cors';
-import db from './config/db.js'
-import path from 'path';
-import { fileURLToPath } from 'url';
+import db from './config/db.js';
 
 import exposantRoutes from './routes/exposantRoutes.js';
 import masterclassRoutes from './routes/masterclassRoutes.js';
 import visiteurRoutes from './routes/visiteurRoutes.js';
 import donationRoutes from './routes/donationRoutes.js';
 import emailRoutes from './routes/emailRoutes.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -37,11 +32,6 @@ app.use('/api/emails', emailRoutes);
 // 404 API
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Route API introuvable.' });
-});
-
-// Catch-all : servir index.html pour toutes les autres routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 export default app;
