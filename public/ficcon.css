@@ -1519,6 +1519,70 @@ footer {
   transform: translateY(0);
 }
 
+/* ===== TICKER AGENCY ===== */
+
+
+.ticker-footer {
+  padding: 0.6rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--dark);
+}
+
+.ticker-footer-inner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  white-space: nowrap;
+}
+
+
+.ticker-footer-item {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ticker-footer-dot {
+  color: var(--green-light);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ticker-footer-item {
+    font-size: 1.1rem;
+  }
+  
+  .ticker-footer-inner {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ticker-footer {
+    padding: 1rem 0;
+  }
+  
+  .ticker-footer-item {
+    font-size: 0.95rem;
+  }
+  
+  .ticker-footer-inner {
+    gap: 1rem;
+  }
+}
+
+
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .nav-links { display: none; }
